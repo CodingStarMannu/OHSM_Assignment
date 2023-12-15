@@ -1,0 +1,126 @@
+
+.layout {
+    width: 390px;
+    height: 844px;
+    position: relative;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Added margin-bottom for equal spacing */
+  }
+  
+  .signInTitle {
+    color: #374151;
+    font-size: 24px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    line-height: 30px;
+    word-wrap: break-word;
+    margin-bottom: 20px; /* Added margin-bottom for equal spacing */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px; /* Added margin-bottom for equal spacing */
+  }
+  
+  .forgotPassword {
+    color: #E7319D;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    cursor: pointer;
+    text-align: right;
+    margin-right: 3rem;
+  }
+  
+  .signInButton {
+    width: 22rem;
+    height: 3.5rem;
+    background: #2FA551;
+    border-radius: 16px;
+    color: #F9FAFB;
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 24px;
+    cursor:pointer;
+    border: none;
+    margin-left: 1rem;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: #E6E8EC;
+    margin: 10px 0;
+  }
+  
+  .continueWith {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px; /* Added margin-bottom for equal spacing */
+  }
+  
+  .orText {
+    color: #D1D5DB;
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
+  
+  .googleButton {
+    width: 21rem;
+    height: 3rem;
+    background: #EFF6FF;
+    border: 1px #BFDBFE solid;
+    border-radius: 16px;
+    color: #333333;
+    font-size: 16px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    line-height: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+.signUpContainer {
+  display: flex;
+  gap: 8px;
+  position: relative;
+
+}
+
+.signUpText {
+  color: #374151;
+  font-size: 16px;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.signUpButton {
+  color: #E7319D;
+  font-size: 16px;
+  font-family: 'DM Sans';
+  font-weight: 700;
+  line-height: 1rem;
+  cursor: pointer;
+}
+
+  

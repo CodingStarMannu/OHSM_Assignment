@@ -1,0 +1,30 @@
+.container {
+    width: 21.375rem; /* 342px */
+    padding: 0.5rem 0.5rem; /* 12px 16px */
+    border-radius: 1rem; /* 16px */
+    border: 0.125rem #F3F4F6 solid; /* 2px */
+    display: flex;
+    flex-direction: column; /* Update to column layout */
+    gap: 1rem; /* 10px */
+  }
+  
+  .label {
+    color: #1b1c1e;
+    font-size: 1rem; /* 16px */
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 1;
+    word-wrap: break-word;
+    margin-bottom: 0.7rem;
+  }
+  
+  .input {
+    height: 1rem; /* 48px */
+    border: none;
+    border-radius: 0.5rem; /* 8px */
+    padding: 0.5rem; /* 8px */
+    font-size: 1rem; /* 16px */
+    font-family: 'DM Sans';
+    font-weight: 500;
+  }
+  

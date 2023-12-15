@@ -1,0 +1,82 @@
+.layout{
+width: 24.375rem;
+height: 57.5rem; 
+border-radius: 1rem 1rem 0 0;
+flex-shrink:0;
+background: #fff;
+}
+
+
+
+.heading{
+color:#111827;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: DM Sans;
+font-size: 1.15rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2rem; 
+text-align: center;
+margin-left: -1.5rem;
+margin-bottom: 2rem;
+}
+
+.formContainer{
+    margin-bottom: 1.2rem;
+    margin-left: 0.2rem;
+}
+.cancelButton{
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+    border: 0.0625rem #2FA551 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    display: inline-flex;
+    cursor: pointer; 
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.buttonText {
+    text-align: center;
+    color: #2FA551;
+    font-size: 1rem;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 1.5rem;
+    word-wrap: break-word;
+  }
+
+  .buttonContainer {
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #2FA551;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    display: inline-flex;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .saveButton {
+    text-align: center;
+    color: #F9FAFB;
+    font-size: 1rem;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 1.5rem;
+    word-wrap: break-word;
+  }

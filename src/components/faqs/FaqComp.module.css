@@ -1,0 +1,77 @@
+/* FaqComp.module.css */
+
+.FAqs {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    width: 100.11rem;
+    height: 883px;
+    padding: 80px, 81px, 80px, 81px;
+    position: relative;
+    background-color: #13151d;
+  }
+  
+  .faqTitle {
+    color: #f9f9f9;
+    font-family: "Avenir-Black", Helvetica;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .faqList {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .faqQuestion {
+    background-color: #110b16;
+    height: 78px;
+    position: relative;
+    width: 1278.75px;
+
+  }
+  
+  .questionIcon {
+    color: #f9f9f9;
+    font-family: "Avenir-Book", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    height: 30px;
+    left: 1228px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    text-align: right;
+    top: 22px;
+    white-space: nowrap;
+  }
+  
+  .questionText {
+    color: #f9f9f9;
+    font-family: "Avenir-Book", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 30px;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 30px;
+    position: absolute;
+    top: 23px;
+    white-space: nowrap;
+    margin-top: -0.2rem;
+  }
+  

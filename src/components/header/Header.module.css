@@ -1,0 +1,78 @@
+:root {
+  --base-font-size: 1rem; 
+}
+
+.Header {
+  width:90rem;; 
+  height: 2.8rem;
+  padding: 1.5rem 5.07rem; 
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.25rem; 
+  display: flex;
+  background-color: #0A0F1B;
+  margin-top: -1rem;
+}
+
+.Left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; 
+  flex: 1 0 0;
+}
+
+.Ohsm {
+  color: var(--White, #FFF);
+  font-family: Roboto;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+
+.ButtonsGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; 
+  color: #FFF;
+}
+
+.MenuItem {
+  display: flex;
+  padding: 1.5rem 1rem;
+  align-items: center;
+  gap: 0.5rem; 
+  align-self: stretch;
+}
+
+.Button {
+  padding: 0.05rem 0.05rem; 
+  border-radius: 0.5rem; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 3rem;
+}
+
+.TextContainer {
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.LogIn,
+.RequestADemo {
+  color: white;
+  font-size: 1rem; 
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0.03rem; 
+  word-wrap: break-word;
+}
+
+.RequestADemo {
+  line-height: 2;
+}
